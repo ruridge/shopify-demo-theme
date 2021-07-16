@@ -1,1 +1,71 @@
-{}
+{
+  "current": {
+    "colors_solid_button_labels": "#f4f4f5",
+    "colors_accent_1": "#4d7c0f",
+    "colors_accent_2": "#d97706",
+    "colors_text": "#27272a",
+    "colors_outline_button_labels": "#4d7c0f",
+    "colors_background_2": "#f4f4f5",
+    "type_header_font": "serif",
+    "social_twitter_link": "https:\/\/twitter.com\/towningsfarm",
+    "social_facebook_link": "https:\/\/www.facebook.com\/towningsfarm\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/townings_farm\/",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
