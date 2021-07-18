@@ -7,6 +7,8 @@
     "colors_outline_button_labels": "#4d7c0f",
     "colors_background_2": "#f4f4f5",
     "type_header_font": "serif",
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
     "social_twitter_link": "https:\/\/twitter.com\/towningsfarm",
     "social_facebook_link": "https:\/\/www.facebook.com\/towningsfarm\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/townings_farm\/",
