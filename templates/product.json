@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1626604881c58fc4ca": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"#\">Back to ...<\/a>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -107,6 +113,7 @@
     }
   },
   "order": [
+    "1626604881c58fc4ca",
     "main",
     "product-recommendations"
   ]
