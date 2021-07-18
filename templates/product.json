@@ -44,18 +44,22 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "ce2c3bdc-9f40-4cf3-9c9a-f0f637b392de": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Delivery Information",
+            "heading": "Delivery",
             "content": "",
-            "page": "our-story",
+            "page": "",
             "icon": "box"
+          }
+        },
+        "efc34428-afcb-4ceb-8619-ab1a81c2e48c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Description",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         }
       },
@@ -67,8 +71,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "ce2c3bdc-9f40-4cf3-9c9a-f0f637b392de"
+        "ce2c3bdc-9f40-4cf3-9c9a-f0f637b392de",
+        "efc34428-afcb-4ceb-8619-ab1a81c2e48c"
       ],
       "settings": {
         "enable_sticky_info": true,
