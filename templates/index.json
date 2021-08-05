@@ -40,6 +40,41 @@
         "adapt_height_first_image": false
       }
     },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meat Boxes"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grass Fed Beef, Lamb and Mutton, and Free Range Pork. Perfect for the hungry family or filling your freezer.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All Meat Boxes ->",
+            "button_link": "shopify:\/\/collections\/all-meat-boxes"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pork-box-rec.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -53,45 +88,11 @@
         "add_image_padding": false,
         "show_vendor": false
       }
-    },
-    "image_text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_products",
-    "image_text"
+    "image_text",
+    "featured_products"
   ]
 }
